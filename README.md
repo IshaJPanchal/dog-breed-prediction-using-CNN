@@ -25,7 +25,7 @@ The CNN model is composed of:
   - Random rotation
   - Random zoom
 - Convolutional and MaxPooling layers:
-  - Conv2D with increasing filters: 32 → 64 → 128 → 256 → 512
+  - Conv2D with increasing filters: 32 → 64 → 128 → 256 → 512 → 1024
   - Each followed by MaxPooling2D
 - Final layers include:
   - Flatten
